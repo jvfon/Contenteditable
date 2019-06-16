@@ -26,6 +26,14 @@
 
         <script type="text/javascript">
             function startEdit() {
+                // Make the element editable
+                var element = document.getElementById("editableElement");
+                element.contentEditable = true;
+                element.focus();
+            }
+
+            function stopEdit() {
+                // Return the element to normal
                 
             }
         </script>
